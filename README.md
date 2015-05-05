@@ -8,6 +8,12 @@ Email questions to [Scott Baggett](mailto:hello@scottbaggett.com)
 
     $  npm install
     $  gulp
+    
 
 ## DIST
-main.css and index.html are the important parts. Make sure to use the container markup exactly as it was created.
+
+This will start a dev server, but you can just cancel it and open the ./dist folder. It contains a css file and the html with the markup. If you are using SCSS in your build process you should just be able to integrate what I did inside main.scss.  
+
+Inside index.html you need to copy the main container and header. All the angular output of the current application should just fit inside a <div class='row'> after the heaer.
+    
+I didn't style any copyright bar at the bottom as I didn't see any in the current design.
