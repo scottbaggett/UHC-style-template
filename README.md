@@ -3,7 +3,7 @@ This is a simple gulp app that outputs a template and a stylesheet. I referenced
 
 This is purely the background style, typogrpahy, header & colors to be integrated into the main site build.
 
-Email questions to [Scott Baggett](hello@scottbaggett.com)
+Email questions to [Scott Baggett](mailto:hello@scottbaggett.com)
 ## INSTALL
 
     $  npm install
